@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Ball : MonoBehaviour {
-    public Vector2 velocity;
+    Vector2 initial_velocity;
     void Start() {
-        transform.GetComponent<Rigidbody2D>().velocity = new Vector2(2f, 2f);
+        initial_velocity = new Vector2(3f, 3f);
+        transform.GetComponent<Rigidbody2D>().velocity = initial_velocity;
     }
 }
