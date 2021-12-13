@@ -6,6 +6,7 @@ public class Ball : MonoBehaviour {
     //Vector2 initial_velocity;
     Vector2 velocity;
     Vector3 mousePosition;
+    public GameManager gameManager;
     //void Start() {
     //    initial_velocity = new Vector2(3f, 3f);
     //    transform.GetComponent<Rigidbody2D>().velocity = initial_velocity;
@@ -39,5 +40,12 @@ public class Ball : MonoBehaviour {
         }
         transform.GetComponent<Rigidbody2D>().velocity = velocity;
         
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision) {
+        if (collision.gameObject.tag == "square") {
+            collision.gameObject.SetActive(false);
+            gameManager.AddScore();
+        }
     }
 }
