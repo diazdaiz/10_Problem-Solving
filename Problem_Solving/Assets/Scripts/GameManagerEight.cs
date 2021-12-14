@@ -7,7 +7,7 @@ public class GameManagerEight : MonoBehaviour
 {
     public GameObject square;
     public float spawnInterval;
-    public int maxSpawn;
+    int maxSpawn;
     List<GameObject> squares;
 
     int score;

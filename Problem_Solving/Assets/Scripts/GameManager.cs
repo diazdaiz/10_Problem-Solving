@@ -17,7 +17,8 @@ public class GameManager : MonoBehaviour
     int score;
     public Text scoreText;
 
-    public Transform ball;
+    public Transform yellowBall;
+    public Transform blueBall;
 
     float timer;
 
@@ -79,7 +80,7 @@ public class GameManager : MonoBehaviour
                 Vector3 spawnLocation;
                 do {
                     spawnLocation = new Vector3(Random.Range(-8.3f, 8.3f), Random.Range(-4.3f, 4.3f), 0f);
-                } while (Mathf.Pow(Mathf.Pow(spawnLocation.x - ball.position.x, 2) + Mathf.Pow(spawnLocation.y - ball.position.y, 2), 1f / 2f) < 0.8);
+                } while (Mathf.Pow(Mathf.Pow(spawnLocation.x - blueBall.position.x, 2) + Mathf.Pow(spawnLocation.y - blueBall.position.y, 2), 1f / 2f) < 0.8 && Mathf.Pow(Mathf.Pow(spawnLocation.x - yellowBall.position.x, 2) + Mathf.Pow(spawnLocation.y - yellowBall.position.y, 2), 1f / 2f) < 0.8);
                 blueSquares[i].transform.position = spawnLocation;
                 blueSquares[i].SetActive(true);
                 break;
@@ -93,7 +94,7 @@ public class GameManager : MonoBehaviour
                 Vector3 spawnLocation;
                 do {
                     spawnLocation = new Vector3(Random.Range(-8.3f, 8.3f), Random.Range(-4.3f, 4.3f), 0f);
-                } while (Mathf.Pow(Mathf.Pow(spawnLocation.x - ball.position.x, 2) + Mathf.Pow(spawnLocation.y - ball.position.y, 2), 1f / 2f) < 0.8);
+                } while (Mathf.Pow(Mathf.Pow(spawnLocation.x - blueBall.position.x, 2) + Mathf.Pow(spawnLocation.y - blueBall.position.y, 2), 1f / 2f) < 0.8 && Mathf.Pow(Mathf.Pow(spawnLocation.x - yellowBall.position.x, 2) + Mathf.Pow(spawnLocation.y - yellowBall.position.y, 2), 1f / 2f) < 0.8);
                 yellowSquares[i].transform.position = spawnLocation;
                 yellowSquares[i].SetActive(true);
                 break;
