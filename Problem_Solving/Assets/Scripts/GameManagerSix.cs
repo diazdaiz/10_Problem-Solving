@@ -9,10 +9,7 @@ public class GameManagerSix: MonoBehaviour
     int maxSpawn;
     List<GameObject> squares;
 
-    float timer;
-
     private void Awake() {
-        timer = 0;
         maxSpawn = Random.Range(3, 14);
         squares = new List<GameObject>();
 
