@@ -140,11 +140,8 @@ AudioListener:
   m_Enabled: 1
 --- !u!20 &519420031
 Camera:
-<<<<<<< HEAD
-=======
 <<<<<<< HEAD:Problem_Solving/Assets/Scenes/Problem1.unity
 =======
->>>>>>> parent of 9737745 (reset)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -209,11 +206,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1198582758}
   - component: {fileID: 1198582757}
-<<<<<<< HEAD
-=======
   - component: {fileID: 1198582759}
   - component: {fileID: 1198582760}
->>>>>>> parent of 9737745 (reset)
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
@@ -283,8 +277,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
-=======
 --- !u!114 &1198582759
 MonoBehaviour:
 >>>>>>> problem_2_solution:Problem_Solving/Assets/Scenes/Problem2.unity
@@ -410,4 +402,3 @@ Transform:
   m_CollisionDetection: 1
   m_Constraints: 0
 >>>>>>> problem_2_solution:Problem_Solving/Assets/Scenes/Problem2.unity
->>>>>>> parent of 9737745 (reset)
