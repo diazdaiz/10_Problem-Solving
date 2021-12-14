@@ -142,6 +142,11 @@ AudioListener:
 Camera:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD:Problem_Solving/Assets/Scenes/Problem1.unity
+=======
+>>>>>>> parent of 9737745 (reset)
 =======
 <<<<<<< HEAD:Problem_Solving/Assets/Scenes/Problem1.unity
 =======
@@ -216,6 +221,11 @@ GameObject:
   - component: {fileID: 1198582757}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  - component: {fileID: 1198582759}
+  - component: {fileID: 1198582760}
+>>>>>>> parent of 9737745 (reset)
 =======
   - component: {fileID: 1198582759}
   - component: {fileID: 1198582760}
@@ -295,7 +305,10 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 9737745 (reset)
 =======
 >>>>>>> parent of 9737745 (reset)
 --- !u!114 &1198582759
@@ -424,6 +437,9 @@ Transform:
   m_Constraints: 0
 >>>>>>> problem_2_solution:Problem_Solving/Assets/Scenes/Problem2.unity
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 9737745 (reset)
+=======
 >>>>>>> parent of 9737745 (reset)
 =======
 >>>>>>> parent of 9737745 (reset)
