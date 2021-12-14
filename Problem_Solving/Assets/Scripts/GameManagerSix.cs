@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameManager : MonoBehaviour
+public class GameManagerSix: MonoBehaviour
 {
     public GameObject square;
     public float spawnInterval;
-    public int maxSpawn;
+    int maxSpawn;
     List<GameObject> squares;
 
     float timer;
