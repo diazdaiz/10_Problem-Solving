@@ -3,20 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class GameManager : MonoBehaviour
+public class GameManagerSeven : MonoBehaviour
 {
     public GameObject square;
     public float spawnInterval;
-    public int maxSpawn;
+    int maxSpawn;
     List<GameObject> squares;
 
     int score;
     public Text scoreText;
 
-    float timer;
-
     private void Awake() {
-        timer = 0;
         score = 0;
         maxSpawn = Random.Range(3, 14);
         squares = new List<GameObject>();
