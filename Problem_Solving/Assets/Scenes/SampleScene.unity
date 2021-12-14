@@ -165,7 +165,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1ff4c12ca872d746bfe14b01258f2cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameManager: {fileID: 0}
+  gameManager: {fileID: 1820948407}
 --- !u!212 &316804521
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1080,11 +1080,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f37fddadcaf6e7942a36ee44c4c57f32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  square: {fileID: 0}
-  spawnInterval: 0
+  square: {fileID: 6785926401210001028, guid: a427970eaca545b4c961fcd2970b6f64, type: 3}
+  spawnInterval: 3
   maxSpawn: 0
-  scoreText: {fileID: 0}
-  ball: {fileID: 0}
+  scoreText: {fileID: 1961874087}
+  ball: {fileID: 316804522}
 --- !u!1 &1961874085
 GameObject:
   m_ObjectHideFlags: 0
