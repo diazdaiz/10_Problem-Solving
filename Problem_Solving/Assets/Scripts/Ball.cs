@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ball : MonoBehaviour {
+public class BallForProblemThree : MonoBehaviour {
     Vector2 initial_velocity;
     void Start() {
         initial_velocity = new Vector2(3f, 3f);
