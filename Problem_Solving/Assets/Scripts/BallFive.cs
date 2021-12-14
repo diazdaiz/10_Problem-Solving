@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BallForProblemFive : MonoBehaviour {
+public class BallFive : MonoBehaviour {
     Vector2 velocity;
     Vector3 mousePosition;
 
