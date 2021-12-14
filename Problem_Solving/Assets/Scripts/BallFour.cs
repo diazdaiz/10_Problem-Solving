@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BallForProblemFour : MonoBehaviour {
+public class BallFour : MonoBehaviour {
     Vector2 velocity;
 
     void Update() {
